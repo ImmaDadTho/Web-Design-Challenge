@@ -9,10 +9,10 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
   </head>
 
@@ -57,6 +57,29 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Summary: Latitude VS. X</h1>
+            <hr class="description-hr"/>
+            <img src="assets/images/fig1.png" title="City Latitude VS. Max Temperature" alt="" id="description-image"/>
+            <p>The purpose  of this project is to analyze the weather changes as you get near the equator. This was done by pulling data from the OpenWeatherMap API and generating a dataset over 500 cities</p>
+            <p>Matplotlib was used with the dataset to plot different attributes of the weather compared to the latitude.  These attributes included cloudiness,humidity,temperature and wind speed. This site demonstrates the source data and the visualizations created from the analysis and provides explanations to any trends and correlations that may have been discovered.</p>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Visualizations</h2>
+              <hr>
+            </div>
+
+          </section>
+        </div>
+      </section>
+    </div>
    
     <!-- End of container -->
 
@@ -64,7 +87,7 @@
     <footer class="footer navbar-fixed-bottom">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">
-        <b>&copy; Copyright Coding Bootcamp 2021</b>
+        <b>&copy; Copyright Coding Bootcamp 2022</b>
       </p>
     </footer>
     <!-- End of footer -->
